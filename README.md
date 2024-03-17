@@ -1,6 +1,6 @@
 # first-portfolio-only-html-css
 Building a portfolio using **only** HTML/CSS.
-
+## Description:
 This project has 3 pages:
 - A home page 
 - A contacts page
