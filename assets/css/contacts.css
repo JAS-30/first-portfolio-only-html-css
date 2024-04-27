@@ -1,0 +1,308 @@
+
+main{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    z-index: 1;
+}
+.social-media{
+    width: 30%;
+    background-color: #1E244F;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+.social-media h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+.social-media-list{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.social-media-list a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.social-media-list a img:hover{
+    background-color: #fb440c;
+    border: 2px solid #fb440c;
+}
+.form{
+    width: 70%;
+    height:  100%;;
+    background-color: #3996DA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 50px;
+    width: 50%;
+}
+form input{
+    padding: 10px 5px;
+    border: none;
+}
+form input:focus{
+    outline: none;
+}
+form textarea{
+    padding: 5px 0 0 5px;
+    resize: none;
+    overflow-y: auto;
+border: none;
+}
+form textarea:focus{
+    outline: none;
+}
+form button{
+    margin-top: 20px;
+    width: 25%;
+    padding: 10px 0;
+    background-color: transparent;
+    color: #fff;
+  border: 2px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+form button:hover{
+    box-shadow: 1px 1px 4px #fff
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main{
+        height: calc(100vh - 50px);
+    }
+    .social-media{
+        gap: 20px;
+    }
+    .social-media h1{
+        margin-top: 20px;
+        font-size: 16px !important;
+    }
+    .social-media-list{
+        gap: 40px;
+        margin-top: 20px;
+    }
+    .social-media-list a img{
+        width: 40px !important;
+        height: 40px !important;
+        border: 1px solid #fff;
+    }
+   
+    .form h1{
+        margin-top: 20px;
+        font-size: 16px !important;
+    }
+    form{
+        gap: 10px;
+        margin-top: 20px;
+        width: 80%;
+    }
+    form input{
+        padding: 4px 2px;
+        font-size: 10px;
+    }
+   
+    form button{
+        margin-top: 20px;
+        width: 25%;
+       font-size: 12px;
+       padding: 5px;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main{
+        height: calc(100vh - 60px);
+    }
+    .social-media{
+        gap: 40px;
+    }
+    .social-media h1{
+        font-size: 30px;
+    }
+    .social-media-list{
+        gap: 50px;
+    }
+   
+    .form h1{
+        font-size: 30px;
+    }
+    form{
+        margin-top: 40px;
+        width: 70%;
+    }
+    form input{
+        padding: 5px 5px;
+        border: none;
+        font-size: 12px;
+    }
+    form textarea{
+    font-size: 12px;
+    }
+    form button{
+        margin-top: 10px;
+        padding: 5px 0;
+        font-size: 12px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+    main{
+        height: calc(100vh - 60px);
+    }
+    .social-media{
+        gap: 50px;
+    }
+    .social-media h1{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    .social-media-list{
+        gap: 50px;
+    }
+    .social-media-list a img{
+        width: 45px;
+        height: 45px;
+    }
+    .form{
+        width: 70%;
+        height:  100%;;
+        background-color: #3996DA;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form h1{
+        margin-top: 20px;
+        font-size: 24px;
+    }
+    form{
+        margin-top: 30px;
+    }
+    form input{
+        padding: 6px 5px;
+        font-size: 12px;
+    }
+    form button{
+        margin-top: 10px;
+        padding: 7px 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    main{
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        z-index: 1;
+    }
+    .social-media{
+        width: 30%;
+        background-color: #1E244F;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .social-media h1{
+        margin-top: 30px;
+        font-size: 40px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #fff;
+    }
+    .social-media-list{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .social-media-list a img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 2px solid #fff;
+    }
+    .social-media-list a img:hover{
+        background-color: #fb440c;
+        border: 2px solid #fb440c;
+    }
+    .form{
+        width: 70%;
+        height:  100%;;
+        background-color: #3996DA;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form h1{
+        margin-top: 30px;
+        font-size: 40px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #fff;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 50px;
+        width: 50%;
+    }
+    form input{
+        padding: 10px 5px;
+        border: none;
+    }
+    form input:focus{
+        outline: none;
+    }
+    form textarea{
+        padding: 5px 0 0 5px;
+        resize: none;
+        overflow-y: auto;
+    border: none;
+    }
+    form textarea:focus{
+        outline: none;
+    }
+    form button{
+        margin-top: 20px;
+        width: 25%;
+        padding: 10px 0;
+        background-color: transparent;
+        color: #fff;
+      border: 2px solid #fff;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    form button:hover{
+        box-shadow: 1px 1px 4px #fff
+    }
+}
+

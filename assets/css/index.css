@@ -1,0 +1,154 @@
+body{
+    background-image: url("/assets/images/home-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 35%;
+    gap: 60px;
+}
+main a button{
+    padding: 10px 15px 10px 15px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+}
+main a button:hover{
+    color: #fb440c;
+    border-color: #fb440c ;
+}
+.home-presentation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.home-presentation p{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home-presentation span{
+    color: #fb440c;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+    main{
+        height: 300px;
+        width: 350px;
+        left: 10%;
+        top:10vh;
+        gap: 20px;
+    }
+    main a button{
+        padding: 5px 5px 5px 5px;
+        border: 1px solid #fff;
+        font-size: 12px;
+    }
+    
+    .home-presentation{ 
+        gap: 10px;
+    }
+    .home-presentation p{
+        font-size: 30px;
+    }
+    .home-presentation span{
+        font-size: 35px;
+    }
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    main{
+        height: 300px;
+        width: 350px; 
+        left: 25%;
+        top: 10vh;
+        gap: 10px;
+    }
+    main a button{
+        padding:  5px 10px 5px 10px;
+        border: 2px solid #fff;
+        font-size: 11px;
+    }
+    .home-presentation{
+        gap: 5px;
+    }
+    .home-presentation p{
+        font-size: 30px;
+    }
+    .home-presentation h2{
+        font-size: 40px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    main{
+        height: 400px;
+        width: 450px; 
+        left: 30%;
+        top: 10vh;
+        gap: 10px;
+    }
+    main a button{
+        padding: 6px 11px 6px 11px;
+        font-size: 12px;
+       
+    }
+    .home-presentation{
+        gap: 10px;
+    }
+    .home-presentation p{
+        font-size: 35px;
+    }
+    .home-presentation h2{
+        font-size: 45px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    main{
+        
+        height: 500px;
+        width: 500px;
+        left: 35%;
+        gap: 60px;
+    }
+    main a button{
+        padding: 10px 15px 10px 15px; 
+        border: 2px solid #fff;
+        font-size: 14px;
+    }
+    .home-presentation{
+        gap: 15px;
+    }
+    .home-presentation p{
+        font-size: 40px;
+    }
+    .home-presentation span{
+        font-size: 50px;
+    }
+}
+
+
+
